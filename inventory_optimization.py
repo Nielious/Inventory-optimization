@@ -3,7 +3,7 @@ import numpy as np
 from pulp import LpProblem, LpMinimize, LpVariable, lpSum, PULP_CBC_CMD, LpStatus, value
 
 # 1. ЗАГРУЖАЕМ ДАННЫЕ
-df = df = pd.read_csv(r'C:\Users\Dell\Downloads\archive(3)\supply_chain_data.csv')
+df = pd.read_csv(r'C:\Users\Dell\Downloads\archive(3)\supply_chain_data.csv')
 
 print("Первые 5 строк:")
 print(df.head())
